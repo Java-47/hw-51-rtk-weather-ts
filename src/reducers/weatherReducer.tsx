@@ -1,14 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit"
 
-
-interface Info {
-    temp: number,
-    city: string,
-    country: string,
-    pressure: number,
-    sunset: number,
-}
-
 const defaultWeather = {
     temp: '',
     city: '',
